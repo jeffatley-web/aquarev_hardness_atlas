@@ -1,0 +1,27 @@
+<!-- Hotel Water Hardness Atlas — paste this whole block into a Webflow Embed element.
+     CSS and JS are hosted on GitHub Pages; bump the ?v= values after pushing changes. -->
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bitter:wght@500;600;700&family=Public+Sans:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap">
+<link rel="stylesheet" href="https://jeffatley-web.github.io/aquarev_hardness_atlas/hardness-atlas.css?v=20260909a">
+
+<div id="hwa">
+  <header>
+    <div>
+      <p class="eyebrow">Source water reference · hotel engineering &amp; pool operations</p>
+      <h1>Hotel Water Hardness Atlas</h1>
+      <p class="lede">Typical hardness of the municipal or on-site source water feeding hotels in each market, and what that level does to hot-water plant, kitchens, laundries and pools. Figures are total hardness as calcium carbonate.</p>
+    </div>
+    <div class="units">
+      <div><b>mg/L as CaCO₃</b> = ppm</div>
+      <div><b>1 gpg</b> (US grains) = 17.1 mg/L</div>
+      <div><b>1 °dH</b> (German) = 17.8 mg/L</div>
+      <div><b>1 °fH</b> (French) = 10 mg/L</div>
+      <div><b>1 °e</b> (Clark) = 14.3 mg/L</div>
+    </div>
+  </header>
+  <div id="hwa-app"></div>
+</div>
+
+<script defer src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js"></script>
+<script defer src="https://cdnjs.cloudflare.com/ajax/libs/topojson/3.0.2/topojson.min.js"></script>
+<script defer src="https://cdnjs.cloudflare.com/ajax/libs/datamaps/0.5.9/datamaps.world.min.js"></script>
+<script defer src="https://jeffatley-web.github.io/aquarev_hardness_atlas/hardness-atlas.js?v=20260909a"></script>
