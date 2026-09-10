@@ -10,7 +10,7 @@ is scoped to `#hwa`, so Webflow's global styles do not reach it.
 | File | Role |
 |---|---|
 | `hardness-atlas.css` | Hosted on GitHub Pages. All styles, dark palette tokens on `#hwa`. |
-| `hardness-atlas.js` | Hosted on GitHub Pages. Holds the 72-market dataset and renders key, filters, map, table, footer. |
+| `hardness-atlas.js` | Hosted on GitHub Pages. Holds the 82-market dataset and renders key, filters, map, table, footer. |
 | `webflow-embed-hardness-atlas.html` | Paste into the Webflow Embed element (about 1.9K chars). |
 
 The map geometry comes from `datamaps.world.min.js` on cdnjs; d3 v7 and
